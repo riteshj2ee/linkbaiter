@@ -1,0 +1,1 @@
+scrapy crawl mininova.org -o scraped_data.json -t json
