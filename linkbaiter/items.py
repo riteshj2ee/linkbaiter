@@ -10,3 +10,7 @@ class TorrentItem(Item):
     name = Field()
     description = Field()
     size = Field()
+
+class FeedItem(Item):
+    link = Field()
+    title = Field()
